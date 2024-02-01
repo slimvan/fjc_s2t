@@ -43,6 +43,7 @@ glob(path.join(src, "**"), { "nodir": true }, (err, files) => {
             } else {
                 // 否则，进行正常的翻译处理
                 translateAndWriteFile(file);
+                
             }
         });
 
